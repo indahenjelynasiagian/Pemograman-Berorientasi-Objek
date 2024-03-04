@@ -1,0 +1,25 @@
+class cookies{
+    String IdPesanan;
+    String MenuPesanan;
+    String HargaPesanan;
+    String TanggalPesanan;
+}
+public class ObjektOrientedProgramming { 
+    public static void main (String [] args) {
+        
+        cookies cookiesku= new cookies();
+        cookiesku.IdPesanan="345";
+        cookiesku.MenuPesanan="cookies cokelate";
+        cookiesku.HargaPesanan="35.250";
+        cookiesku.TanggalPesanan="26 juni 2023";
+        
+        System.out.println("IdPesanan "+cookiesku.IdPesanan);
+        System.out.println("MenuPesanan "+cookiesku.MenuPesanan);
+        System.out.println("HargaPesanan"+cookiesku.HargaPesanan);
+        System.out.println("TanggalPesanan"+cookiesku.TanggalPesanan);
+        
+      
+        
+    }
+    
+}
